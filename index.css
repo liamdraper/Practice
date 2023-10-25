@@ -1,0 +1,14 @@
+body {
+    background-color: darkgray;
+    color: white;
+}
+
+.flex-parent {
+    display: flex;
+    width: 80%;
+}
+
+.flex-child {
+    flex: 1;
+    margin: 50px;
+}
