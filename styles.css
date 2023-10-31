@@ -1,24 +1,23 @@
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Optional: Center within the viewport's height */
-    font-size: 20px;
-    background-color: red;
+    flex-direction: column;
 }
 
-h1 {
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-    padding: 10px;
+hr {
+    border: 5px solid rgb(95, 160, 222);
+    width: 150px;
 }
 
-button {
-    color: white;
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
+img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
 }
+
+.buttons {
+    display: flex;
+}
+
