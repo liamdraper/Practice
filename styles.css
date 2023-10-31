@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Center within the viewport's height */
+    font-size: 20px;
+    background-color: red;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
