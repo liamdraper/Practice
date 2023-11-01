@@ -1,35 +1,12 @@
-body {
-    background-color: rgb(242, 245, 248);
+nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
-article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 5px 5px 5px
-}
-
-hr {
-    border: 5px solid rgb(95, 160, 222);
-    width: 150px;
-}
-
-img {
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-}
-
-.buttons {
+nav > div{
     display: flex;
 }
 
+button {
+    height: 20px;
+}
